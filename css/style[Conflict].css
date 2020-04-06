@@ -1,0 +1,561 @@
+@charset "utf-8";
+/* CSS Document */
+
+html{
+  font-size:16px;
+  line-height:1.4;
+  font-family: 'Raleway','Roboto',Helvetica;
+  font-size: 1rem;
+}
+
+body{
+	-moz-animation-duration: 1500ms;
+	-webkit-animation-duration: 1500ms;
+	-o-animation-duration: 1500ms;
+	-ms-animation-duration: 1500ms;
+  	-moz-animation-delay: 250ms;
+	-webkit-animation-delay: 250ms;
+	-o-animation-delay: 250ms;
+	-ms-animation-delay: 250ms;
+	background-image: url('http://pharmacology.ahc.umn.edu/~ad%5czhan0718/2017-retreat/image/background-2.png')
+}
+
+ul>li{
+	color:#000;
+    font-family: 'Roboto';
+	line-height:1.5;
+	font-size: 15px;
+	font-weight:300;
+}
+
+.barba-wrapper{
+	overflow-x:hidden;
+}
+
+h1 h2 h3 h4 {
+	font-family: 'Raleway','Roboto',Helvetica;
+}
+
+a{
+  text-decoration:none;
+  color: #7a0019;
+  font-weight:500;
+  	-moz-animation-duration: 1500ms;
+	-webkit-animation-duration: 1500ms;
+	-o-animation-duration: 1500ms;
+	-ms-animation-duration: 1500ms;
+  	-moz-animation-delay: 250ms;
+	-webkit-animation-delay: 250ms;
+	-o-animation-delay: 250ms;
+	-ms-animation-delay: 250ms;
+}
+
+a:hover{
+	text-decoration:none;
+	color:#cc909c;
+	font-weight:500;
+	transition-timing-function: ease-in-out;
+}
+
+.container {
+  margin:auto;
+}
+
+.content{
+  display: flex;
+  align-items: center;
+  padding: 32px 24px;
+}
+
+hr{
+	border: none;
+	height: 1px;
+	background-color: #c0c8c9;
+	background-image: -webkit-linear-gradient(0deg, #fff, #c0c8c9, #fff);
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0.5em;
+	-webkit-margin-start: auto;
+	-webkit-margin-end: auto;
+}
+
+p{
+	color:#000;
+	font-family: 'Roboto', Sans Serif,;
+	line-height:1.5;
+	font-size: 15px;
+}
+
+/* Hero Banner */
+
+#herobanner{
+	-moz-animation-duration: 1500ms;
+	-webkit-animation-duration: 1500ms;
+	-o-animation-duration: 1500ms;
+	-ms-animation-duration: 1500ms;
+  	-moz-animation-delay: 250ms;
+	-webkit-animation-delay: 250ms;
+	-o-animation-delay: 250ms;
+	-ms-animation-delay: 250ms;
+	width: 100%;
+	padding-left:0px;
+	padding-right:0px;
+}
+	
+
+.logo-banner-image{
+		width:55%;
+		float:left;
+		transition: all 250ms ease-in-out;
+		padding-top: 1.5%;
+		padding-bottom: 1.5%;
+		margin-left:5.5%;
+		-moz-animation-duration: 1500ms;
+		-webkit-animation-duration: 1500ms;
+		-o-animation-duration: 1500ms;
+		-ms-animation-duration: 1500ms;
+  		-moz-animation-delay: 350ms;
+		-webkit-animation-delay: 350ms;
+		-o-animation-delay: 350ms;
+		-ms-animation-delay: 350ms;
+	}
+	
+.where-banner-image{
+		width:34%;
+		float:left;
+		transition: all 250ms ease-in-out;
+		padding-top: 1.5%;
+		padding-bottom: 1.5%;
+		-moz-animation-duration: 2250ms;
+		-webkit-animation-duration: 2250ms;
+		-o-animation-duration: 2250ms;
+		-ms-animation-duration: 2250ms;
+		-moz-animation-delay: 1000ms;
+		-webkit-animation-delay: 1000ms;
+		-o-animation-delay: 1000ms;
+		-ms-animation-delay: 1000ms;
+	}
+	
+.date-location-fade{
+	-moz-animation-duration: 1500ms;
+	-webkit-animation-duration: 1500ms;
+	-o-animation-duration: 1500ms;;
+	-ms-animation-duration: 1500ms;
+	-moz-animation-delay: 1500ms;
+	-webkit-animation-delay: 1500ms;
+	-o-animation-delay: 1500ms;
+	-ms-animation-delay: 1500ms;
+}
+
+.date-location{
+	text-align:center;
+	vertical-align:middle;
+	padding:2% 0;
+	transition: all 250ms ease-in-out;
+	background:#fff;
+	border-top:4px solid rgba(204, 226, 230,1);
+}
+
+#date-location{
+	width: 100%;
+	padding-left:0px;
+	padding-right:0px;
+}
+
+.date{
+	font-family:'Raleway', 'Roboto', Arial, Sans Serif;
+	font-size:2.75vw;
+	text-align:right;
+	padding-right:0;
+	-moz-animation-duration: 1500ms;
+	-webkit-animation-duration: 1500ms;
+	-o-animation-duration: 1500ms;;
+	-ms-animation-duration: 1500ms;
+	-moz-animation-delay: 2000ms;
+	-webkit-animation-delay: 2000ms;
+	-o-animation-delay: 2000ms;
+	-ms-animation-delay: 2000ms;
+	font-weight:100;
+}
+
+.date:after{
+	content: '';
+    position: absolute;
+	top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 120px;
+    height: 120px;
+    border: 1px solid rgba(246, 123, 64, 0.5);
+/* Rotate */
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+/* Rotate Origin */
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+    margin: 60px 0 10px 310px;
+	display:none;
+}
+
+.at {
+	font-size:6vw;
+	color: #7a0019;
+	padding:0;
+	font-weight:100;
+}
+
+.hotel {
+	padding-left:0;
+		-moz-animation-duration: 1500ms;
+	-webkit-animation-duration: 1500ms;
+	-o-animation-duration: 1500ms;;
+	-ms-animation-duration: 1500ms;
+	-moz-animation-delay: 2000ms;
+	-webkit-animation-delay: 2000ms;
+	-o-animation-delay: 2000ms;
+	-ms-animation-delay: 2000ms;
+}
+
+.number{
+	font-family: 'Roboto', arial, sans serif;
+	font-weight:300;
+}
+
+#hotel-logo{
+	margin-top:-1.25%;
+	margin-bottom:-1%;
+	float:left;
+	max-width:50%;
+}
+
+.arrow_bottom {
+	position: relative;
+	background: #;
+	border-bottom: 4px solid rgba(204, 226, 230,1);
+}
+.arrow_bottom:after, .arrow_bottom:before {
+	top: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.arrow_bottom:after {
+	border-color: rgba(0, 0, 0, 0);
+	border-top-color: #;
+	border-width: 25px;
+	margin-left: -25px;
+}
+.arrow_bottom:before {
+	border-color: rgba(198, 237, 244 0);
+	border-top-color: rgba(204, 226, 230,1);
+	border-width: 25px;
+	margin-left: -25px;
+}
+
+.arrow_top {
+	position: relative;
+	background: #;
+	border-top: 4px solid rgba(204, 226, 230,1);
+}
+.arrow_top:after, .arrow_top:before {
+	bottom: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.arrow_top:after {
+	border-color: rgba(0, 0, 0, 0);
+	border-bottom-color: #;
+	border-width: 25px;
+	margin-left: -25px;
+}
+.arrow_top:before {
+	border-color: rgba(198, 237, 244 0);
+	border-bottom-color: rgba(204, 226, 230,1);
+	border-width: 25px;
+	margin-left: -25px;
+}
+
+@media (max-width: 768px) {
+	.logo-banner-image{
+		width:100%;
+		margin-left:0%;
+		margin-top:4.5%;
+	}
+	
+	.retreat-logo{
+		width:100%;
+		margin-left:0%;
+		margin-top:4.5%;
+	}
+	
+	
+	.date-location{
+		padding:2% 0 6%;
+	}
+	
+	.where-banner-image{
+		width:75%;
+		margin-top:-5%;
+		margin-left:15%;
+		float:left;
+		display:block;
+		padding-bottom:0;
+		margin-bottom: 4%;
+	}
+	
+	.retreat-sublogo{
+		width:75%;
+		margin-left:15%;
+		float:left;
+		display:block;
+		padding-bottom:0;
+	}
+	
+	.date{
+		text-align:center;
+		padding-right:15px;
+		font-size:8vw;
+	}
+	
+	.at {
+		font-size:15vw;
+	}
+	
+	.hotel{
+		padding-left:15px;
+	}
+	
+	#hotel-logo{
+		margin-top: - 3.5%;
+		float:none;
+		max-width:50%;
+		margin-left:25%;
+}
+}
+
+/* END Hero Banner */
+
+/* Landing Page Nav */
+#landing-nav{
+	-moz-animation-duration: 1500ms;
+	-webkit-animation-duration: 1500ms;
+	-o-animation-duration: 1500ms;
+	-ms-animation-duration: 1500ms;
+  	-moz-animation-delay: 250ms;
+	-webkit-animation-delay: 250ms;
+	-o-animation-delay: 250ms;
+	-ms-animation-delay: 250ms;
+	width: 100%;
+	padding-left:0px;
+	padding-right:0px;
+}
+.landing-nav{
+	padding-top: 3%;
+	padding-bottom:1%;
+}
+
+.landing-nav-link{
+	padding:1% 1%;
+}
+
+.landing-nav-link img{
+	width:75%;
+	max-width:150px;
+}
+
+.nav-border{
+	background: rgba(255, 255, 255, 0.9);
+	padding: 5% 0;
+}
+
+.nav-text{
+	text-align:center;
+}
+
+.session-logo-nav{
+	transition: all 250ms ease-in-out;
+	-moz-animation-duration: 1000ms;
+	-webkit-animation-duration: 1000ms;
+	-o-animation-duration: 1000ms;
+	-ms-animation-duration: 1000ms;
+	-moz-animation-delay: 1500ms;
+	-webkit-animation-delay: 1500ms;
+	-o-animation-delay: 1500ms;
+	-ms-animation-delay: 1500ms;
+}
+
+.breakout-logo-nav{
+	transition: all 250ms ease-in-out;
+	-moz-animation-duration: 1000ms;
+	-webkit-animation-duration: 1000ms;
+	-o-animation-duration: 1000ms;;
+	-ms-animation-duration: 1000ms;
+	-moz-animation-delay: 1650ms;
+	-webkit-animation-delay: 1650ms;
+	-o-animation-delay: 1650ms;
+	-ms-animation-delay: 1650ms;
+}
+
+.poster-logo-nav{
+	transition: all 250ms ease-in-out;
+	-moz-animation-duration: 1000ms;
+	-webkit-animation-duration: 1000ms;
+	-o-animation-duration: 1000ms;;
+	-ms-animation-duration: 1000ms;
+	-moz-animation-delay: 1800ms;
+	-webkit-animation-delay: 1800ms;
+	-o-animation-delay: 1800ms;
+	-ms-animation-delay: 1800ms;
+}
+
+.register-logo-nav{
+	transition: all 250ms ease-in-out;
+	-moz-animation-duration: 1000ms;
+	-webkit-animation-duration: 1000ms;
+	-o-animation-duration: 1000ms;;
+	-ms-animation-duration: 1000ms;
+	-moz-animation-delay: 1950ms;
+	-webkit-animation-delay: 1950ms;
+	-o-animation-delay: 1950ms;
+	-ms-animation-delay: 1950ms;
+}
+
+@media (max-width: 991px) {
+.session-logo-nav{
+	width:120px;
+}
+
+.breakout-logo-nav{
+	width:120px;
+}
+
+.poster-logo-nav{
+	width:120px;;
+}
+
+.register-logo-nav{
+	width:120px;
+}
+
+.landing-nav{
+	padding-top: 4%;
+	padding-bottom:1%;
+}
+
+.landing-nav-link{
+	padding:4% 1%;
+}
+
+.nav-border {
+	border-top:4px solid rgba(204, 226, 230,1);
+	position: relative;
+	border-bottom: 4px solid rgba(204, 226, 230,1);
+}
+
+.nav-border:after{
+	top: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(198, 237, 244 0);
+	border-top-color: rgba(204, 226, 230,1);
+	border-width: 25px;
+	margin-left: -25px;
+}
+}
+	}
+
+@media (max-width: 768px) {
+.landing-nav-link{
+		padding:5%;
+}
+.session-logo-nav{
+	width:150px;
+}
+
+.breakout-logo-nav{
+	width:150px;
+}
+
+.poster-logo-nav{
+	width:150px;
+}
+
+.register-logo-nav{
+	width:150px;
+}
+
+#subpage-header{
+	padding-bottom:2%;
+}
+/* END Landing Page Nav */
+
+
+/* SUB Pages */
+.subpage-header{
+	-moz-animation-duration: 2500ms;
+	-webkit-animation-duration: 2500ms;
+	-o-animation-duration: 2500ms;
+	-ms-animation-duration: 2500ms;
+  	-moz-animation-delay: 2250ms;
+	-webkit-animation-delay: 2250ms;
+	-o-animation-delay: 2250ms;
+	-ms-animation-delay: 2250ms;
+	width: 100%;
+	padding-left:0px;
+	padding-right:0px;
+}
+
+
+.secondary-nav-button{
+	webkit-transition: .2s all ease;
+	transition: .2s all ease;
+	padding:40px, 60px;
+	border:1px solid white !important;
+	font-family: Raleway;
+	display:inline-block;
+}
+
+/* INFO Page */
+
+#carousel-item-fade{
+	-moz-animation-duration: 1500ms;
+	-webkit-animation-duration: 1500ms;
+	-o-animation-duration: 1500ms;
+	-ms-animation-duration: 1500ms;
+  	-moz-animation-delay: 1250ms;
+	-webkit-animation-delay: 1250ms;
+	-o-animation-delay: 1250ms;
+	-ms-animation-delay: 1250ms;
+	width: 100%;
+	padding-left:0px;
+	padding-right:0px;
+}
+
+/*SUB Page Nav*/
+#size-spacer{display:none;}
+
+@media(min-width:850px) and (max-width:1080px) {
+	#size-spacer{display:block;}
+}
